@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+  /* 🌄 Fondo vistoso */
+  background: url("/assets/img/fondo.jfif") no-repeat center center/cover;
+  height: 100vh;
+}
+
+/* ✨ Glassmorphism */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+/* Canvas centrado */
+canvas {
+  border-radius: 20px;
+}
